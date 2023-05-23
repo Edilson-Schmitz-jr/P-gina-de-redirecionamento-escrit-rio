@@ -1,0 +1,44 @@
+
+@media (max-width: 640px) {
+    
+    .container_principal {
+        margin: 0 auto;
+    }
+
+    .lista_links a {
+        display: flex;
+        height: 75px;
+        background-color: #fefefe;
+        border-bottom: 1px solid #dadada;
+        justify-content: center;
+    }
+    .lista_links div {
+        display: flex;
+        width: 300px;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .faixa_bem_vindos {
+        background-color: #4A0002;
+        width: 100%;
+        height: 160px;
+    }
+    
+    .text_align {
+        margin: auto;
+    }
+    .titulo_faixa {
+        color: #ffffff;
+        font-size: 24px;
+        padding: 20px;
+        font-weight: 200;
+        margin: 10px auto 0 auto;
+    }
+
+    .subtitulo_faixa {
+        padding: 20px;
+    }
+}
+
