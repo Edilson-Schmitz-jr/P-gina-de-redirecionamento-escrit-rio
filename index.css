@@ -7,6 +7,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
+}
+.img_plano_de_fundo {
+    position: absolute;
+    width: 100%;
+    filter: blur(20px) brightness(60%);
+    z-index: 1;
 }
 .container_principal {
     margin-top: 50px;
@@ -14,6 +21,8 @@ body {
     flex-direction: column;
     align-items: center;
     max-width: 680px;
+    z-index: 1000;
+    box-shadow: 0 0 30px #000000;
 }
 
 header {
@@ -44,8 +53,8 @@ header {
     height: 40px;
 }
 .subtitulo_faixa {
-    color: #aeaeae;
-    font-size: 15px;
+    color: #b8b8b8;
+    font-size: 16px;
 }
 
 .lista_links {
@@ -55,7 +64,7 @@ header {
 }
 .lista_links div {
     display: flex;
-    height: 75px;
+    height: 105px;
     background-color: #fefefe;
     border-bottom: 1px solid #dadada;
 }

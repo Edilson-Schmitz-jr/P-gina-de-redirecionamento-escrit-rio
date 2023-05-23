@@ -1,20 +1,21 @@
 
 @media (max-width: 640px) {
+
+    body {
+        overflow: scroll;
+    }
     
     .container_principal {
         margin: 0 auto;
     }
-
-    .lista_links a {
-        display: flex;
-        height: 75px;
-        background-color: #fefefe;
-        border-bottom: 1px solid #dadada;
-        justify-content: center;
+    .img_plano_de_fundo {
+        display: none;
     }
     .lista_links div {
         display: flex;
-        width: 300px;
+        height: 85px;
+        background-color: #fefefe;
+        border-bottom: 1px solid #dadada;
     }
 }
 
