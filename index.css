@@ -107,7 +107,6 @@ header {
     opacity: 1;
 }
 .tela_de_carregamento.active {
-    transform: translateX(100%);
     pointer-events: none;
     transition: .2;
     display: flex;
@@ -119,6 +118,16 @@ header {
     position: absolute;
     transition: .2;
     opacity: 0;
+    animation: fade .4s;
+}
+@keyframes fade {
+    from {
+
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
 }
 
 .logo_tela_de_carregamento {
