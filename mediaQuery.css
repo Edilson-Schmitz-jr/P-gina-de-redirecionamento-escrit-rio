@@ -14,7 +14,7 @@
     .lista_links div {
         display: flex;
         height: 85px;
-        background-color: #fefefe;
+        background-color: #0B3836;
         border-bottom: 1px solid #dadada;
     }
 }
@@ -22,7 +22,7 @@
 @media (max-width: 450px) {
 
     .faixa_bem_vindos {
-        background-color: #4A0002;
+        background-color: #072423;
         width: 100%;
         height: 160px;
     }
